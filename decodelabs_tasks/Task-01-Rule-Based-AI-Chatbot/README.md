@@ -1,74 +1,155 @@
-# 🤖 NovaChat AI - Rule-Based Chatbot
+# NovaChat AI - Rule-Based Chatbot
 
 **Project 1 - DecodeLabs Artificial Intelligence Internship**
 
-## 📖 Objective
-The objective of this project is to build a rule-based AI chatbot that responds to predefined user inputs using decision-making logic. The project demonstrates the core fundamentals of control flow and user interaction, and it is presented in two distinct formats:
-1. **A Professional Web Application** (`index.html`, `style.css`, `script.js`)
-2. **A Python Terminal Application** (`chatbot.py`)
+## Project Overview
+
+NovaChat AI is a rule-based chatbot developed as part of the DecodeLabs Artificial Intelligence Internship. The chatbot responds to predefined user inputs using conditional (`if-else`) decision-making logic. This project demonstrates the fundamentals of rule-based conversational systems and is implemented in two formats:
+
+- **Web Application** using HTML, CSS, and JavaScript
+- **Python Terminal Application** using Python
 
 ---
 
-## ✨ Features
+## Features
 
-### Web Interface (NovaChat Theme)
-- **Modern UI Design:** A sleek, premium, dark-purple aesthetic with a floating chat card layout.
-- **Responsive Sidebar:** Includes a chat history sidebar that gracefully collapses into a mobile-friendly hamburger menu on smaller screens.
-- **Dark/Light Mode:** Toggle between themes seamlessly, with your preference saved automatically using `localStorage`.
-- **Simulated Media Inputs:** Mock microphone and file upload integrations to demonstrate advanced UI capabilities.
-- **Quick Action Chips:** Clickable command suggestions for fast interactions.
+### Web Application
 
-### Bot Capabilities (Rule-Based Logic)
-Both the Web and Python versions can understand and respond to:
-- **Greetings:** `hi`, `hello`, `good morning`, etc.
-- **Conversational Queries:** `how are you?`, `tell me a joke`, `meaning of life`.
-- **Information Queries:** `what is ai?`, `what is javascript?`.
-- **System Queries:** `time`, `date`, `who created you?`.
-- **Action Commands:** `help`, `clear`, `exit`, `bye`.
+- Modern and responsive chatbot interface
+- Professional UI with dark and light theme support
+- Theme preference saved using `localStorage`
+- Responsive sidebar with mobile-friendly navigation
+- Quick action buttons for common chatbot commands
+- Simulated microphone and file upload interface
+- Smooth animations and interactive user experience
+
+### Rule-Based Chatbot
+
+The chatbot responds to predefined commands using rule-based logic.
+
+Supported interactions include:
+
+- Greetings (Hi, Hello, Good Morning, etc.)
+- Basic conversation (How are you?, Tell me a joke, Meaning of life)
+- Information queries (What is AI?, What is JavaScript?)
+- Date and time
+- Creator information
+- Help menu
+- Clear chat
+- Exit commands (Bye, Exit, Quit)
+- Default response for unknown inputs
 
 ---
 
-## 🛠️ Project Structure
+## Technologies Used
+
+- Python 3
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+---
+
+## Project Structure
 
 ```text
 Task-01-Rule-Based-AI-Chatbot/
-├── index.html           # Web application layout (HTML5)
-├── style.css            # Custom styling & themes
-├── script.js            # Rule-based JS logic & UI interactions
-├── chatbot.py           # Python terminal version
-├── requirements.txt     # Python dependencies (None required)
-├── README.md            # Project documentation
-└── screenshots/         # UI demonstrations
+│
+├── index.html
+├── style.css
+├── script.js
+├── chatbot.py
+├── README.md
+├── requirements.txt
+└── screenshots/
 ```
 
 ---
 
-## 🚀 How to Run
+## Installation and Usage
 
-### Web Version (Recommended)
-No installation or backend required! The web app runs entirely on the client-side.
+### Web Application
+
 1. Navigate to the project folder.
-2. Double-click **`index.html`** to open it in your default web browser.
-3. *Alternatively, use an extension like VS Code Live Server.*
+2. Open `index.html` in any modern web browser.
 
-### Python Terminal Version
-1. Ensure Python 3.x is installed on your system.
-2. Open your terminal in the `Task-01-Rule-Based-AI-Chatbot` directory.
+Alternatively, run the project using the **Live Server** extension in Visual Studio Code for a better development experience.
+
+### Python Application
+
+1. Ensure Python 3.x is installed.
+2. Open a terminal in the project directory.
 3. Run the following command:
-   ```bash
-   python chatbot.py
-   ```
+
+```bash
+python chatbot.py
+```
 
 ---
 
-## 🧠 Learning Outcomes
-By completing this project, the following skills were demonstrated:
-- **Rule-Based Architecture:** Implementing `if-else` decision trees to map specific user inputs to predefined outputs.
-- **Frontend Web Development:** Building a highly responsive, multi-layout web application using Vanilla HTML, CSS, and JS without frameworks.
-- **State Management:** Handling dark mode persistence and dynamic DOM manipulation for chat history logs.
-- **String Manipulation:** Sanitizing and formatting user inputs (removing punctuation, handling casing) to ensure accurate logic matching.
+## Chatbot Capabilities
+
+The chatbot supports the following commands:
+
+| Category | Examples |
+|----------|----------|
+| Greetings | Hi, Hello, Hey, Good Morning |
+| Conversation | How are you?, Tell me a joke |
+| Information | What is AI?, What is JavaScript? |
+| System | Date, Time, Who created you? |
+| Utilities | Help, Clear |
+| Exit | Bye, Exit, Quit |
 
 ---
 
-**Author:** Artificial Intelligence  
-*DecodeLabs Artificial Intelligence Internship - Project 1*
+## Screenshots
+
+### Landing Page
+
+![Landing Page](screenshots/landing-page.png)
+
+### Chat Interface
+
+![Chat Interface](screenshots/chat-interface.png)
+
+### Help Menu
+
+![Help Menu](screenshots/help-menu.png)
+
+### Dark Mode
+
+![Dark Mode](screenshots/dark-mode.png)
+
+---
+
+## Learning Outcomes
+
+This project helped strengthen the following concepts:
+
+- Rule-based chatbot development
+- Decision-making using `if-else` conditions
+- DOM manipulation with JavaScript
+- Responsive web design using HTML and CSS
+- Theme management using `localStorage`
+- User input processing and string manipulation
+- Building interactive web applications without external frameworks
+
+---
+
+## Future Enhancements
+
+Potential improvements include:
+
+- Voice recognition integration
+- Chat history persistence
+- Expanded knowledge base
+- Natural Language Processing (NLP) support
+- Backend integration with AI models
+
+---
+
+## Author
+
+**Artificial Intelligence**
+
+DecodeLabs Artificial Intelligence Internship – Project 1
