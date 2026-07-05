@@ -1,0 +1,14 @@
+Classification Report for Random Forest
+Accuracy: 0.2000
+
+              precision    recall  f1-score   support
+
+   Cancelled       0.20      0.15      0.17        59
+   Delivered       0.15      0.15      0.15        41
+     Pending       0.16      0.25      0.20        40
+    Returned       0.16      0.23      0.19        43
+     Shipped       0.42      0.23      0.30        57
+
+    accuracy                           0.20       240
+   macro avg       0.22      0.20      0.20       240
+weighted avg       0.23      0.20      0.20       240

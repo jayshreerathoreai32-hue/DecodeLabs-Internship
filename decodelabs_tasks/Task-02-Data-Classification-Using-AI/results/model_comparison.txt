@@ -1,0 +1,7 @@
+Model Comparison Results
+========================
+Decision Tree Accuracy: 0.2000
+Random Forest Accuracy: 0.2000
+
+Better Model: Tie
+Reasoning: Both models achieved the same accuracy on this specific test set.
